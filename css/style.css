@@ -60,8 +60,8 @@ nav .container{
 
 nav img{
     width: 150px;
-    margin-left: 20px;
-    margin-right: 250px;
+    margin-left: 0px;
+    margin-right: 280px;
 }
 
 nav.bg-sc ul li{
@@ -91,13 +91,13 @@ nav.bg-sc ul li a::after{
 }
 
 nav.bg-sc ul li a:hover{
-    color: var(--red-color);
+    color: var(--blue-color);
 } 
 
 nav.bg-sc ul li a:hover::after{
     width: 60%;
     cursor: auto;
-    background: var(--blue-color);
+    background: var(--red-color);
 }
 
 
@@ -107,3 +107,14 @@ nav.bg-sc ul li a:hover::after{
 
 
 /* hero */
+
+#hero h1{
+    font-size: 150px;
+    margin-top: 100px;
+    color: var(--primary-color);
+}
+
+#hero h4{
+    position: relative;
+    top: -30px;
+}
