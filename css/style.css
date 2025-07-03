@@ -164,13 +164,13 @@ nav.bg-sc ul li a:hover::after{
 #services .container h3{
     font-size: 50px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 #services .container .row{
     margin-bottom: 20px;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .cont-paper{
@@ -199,3 +199,4 @@ nav.bg-sc ul li a:hover::after{
 #services .pages img{
     width: 100%;
 }
+
