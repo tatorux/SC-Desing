@@ -121,13 +121,17 @@ nav.bg-sc ul li a:hover::after{
 }
 
 #about .about-info h2{
-    font-size: 50px;
+    font-size: 80px;
     font-family: var(--font-sub-tittle);
+}
+
+#about .about-info p{
+    text-align: center;
 }
 
 #about .about-slo h1{
     font-size: 100px;
-    margin-top: 100px;
+    margin-top: 30px;
     color: var(--primary-color);
 }
 
@@ -135,4 +139,42 @@ nav.bg-sc ul li a:hover::after{
     font-size: 20px;
     position: relative;
     top: -30px;
+}
+
+
+
+
+
+
+*/*servicios*/
+
+#services{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#services .container h2{
+    font-size: 80px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#services .container h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#services .container .row{
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.cont-paper{
+    margin-top: 60px;
+}
+.cont-paper .paper h3{
+    font-size: 50px;
+    margin-bottom: 20px;
 }
