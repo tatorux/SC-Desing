@@ -122,6 +122,7 @@ nav.bg-sc ul li a:hover::after{
 
 #about .about-info h2{
     font-size: 80px;
+    margin-bottom: 30px;
     font-family: var(--font-sub-tittle);
 }
 
@@ -149,6 +150,7 @@ nav.bg-sc ul li a:hover::after{
 */*servicios*/
 
 #services{
+    margin-top: 30px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -177,4 +179,23 @@ nav.bg-sc ul li a:hover::after{
 .cont-paper .paper h3{
     font-size: 50px;
     margin-bottom: 20px;
+}
+
+
+#services .pages{
+    margin-top: 40px;
+    text-align: justify;
+}
+
+#services .pages h2{
+    font-size: 80px;
+    text-align: center;
+}
+
+#services .pages p{
+    margin-right: 20px;
+}
+
+#services .pages img{
+    width: 100%;
 }
