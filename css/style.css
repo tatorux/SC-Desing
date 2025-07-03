@@ -266,9 +266,6 @@ footer p {
 
 
 
-/* tablet respons */
-
-@
 /* TABLET */
 
 @media screen and (min-width:769px) and (max-width:992px) {
@@ -277,7 +274,7 @@ footer p {
     }
 
     nav img {
-        width: 150px;
+        width: 180px;
         margin-right: 150px;
     }
 
@@ -419,7 +416,7 @@ footer p {
     }
 
     nav img {
-        width: 120px;
+        width: 150px;
         margin-right: 0px;
     }
 
